@@ -17,9 +17,7 @@ Final Output of the Script will not contain the temporary variables used during 
 Transformation used:
 
 1. cbind :
-This is used to add up subject ,activity, and data into one data set.
-example code:
-
+This is used to add up subject ,activity, and data into one data set. example code:
 requiredtestwithactivity<-cbind(subjecttest,testactivity,requiredtest)
 
 2. rbind:
